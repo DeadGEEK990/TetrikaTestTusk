@@ -1,0 +1,52 @@
+# Папки виртуальных окружений
+.venv/
+env/
+venv/
+ENV/
+
+# Системные файлы IDE
+.idea/
+.vscode/
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+
+# Файлы настроек OS
+.DS_Store
+Thumbs.db
+
+# Папки сборки и кэшированные файлы
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Логи
+*.log
+
+# Тесты и покрытия
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Кэш pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Персональные файлы VS Code
+.vscode/settings.json
+
+# Местные настройки
+*.env
+*.env.*
+
+# Pytest
+*.pytest_cache/
+
+# csv
+.csv
