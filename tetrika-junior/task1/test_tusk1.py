@@ -4,34 +4,34 @@ from .solution import strict
 
 @strict
 def string_func(a: str, b: str) -> str:
-    return f'{a}, {b}'
+    return f"{a}, {b}"
 
 
 @strict
 def float_func(a: float, b: float) -> float:
-    return a+b
+    return a + b
 
 
 @strict
 def bool_func(a: bool, b: bool) -> bool:
-    return a==b
+    return a == b
 
 
 @strict
 def int_func(a: int, b: int) -> int:
-    return a+b
+    return a + b
 
 
 # Тесты
 
 
 def test_string_func_whit_correct_types():
-    assert string_func('Hello','World!') == 'Hello, World!'
+    assert string_func("Hello", "World!") == "Hello, World!"
 
 
 def test_string_func_whit_incorrect_types():
     with pytest.raises(TypeError):
-        string_func('Hello',True)
+        string_func("Hello", True)
 
 
 def test_float_func_whit_correct_types():
